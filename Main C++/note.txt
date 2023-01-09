@@ -1,0 +1,2 @@
+variable -> is a container to hold data
+data type -> defines the type of data a VARIABLE can hold
