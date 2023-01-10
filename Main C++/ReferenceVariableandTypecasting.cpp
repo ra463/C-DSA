@@ -5,28 +5,28 @@ int r = 20;
 
 int main()
 {
-    // int a, b, r;
-    // cout << "Enter the value of a: " << endl;
-    // cin >> a;
-    // cout << "Enter the value of b: " << endl;
-    // cin >> b;
+    int a, b, r;
+    cout << "Enter the value of a: " << endl;
+    cin >> a;
+    cout << "Enter the value of b: " << endl;
+    cin >> b;
 
-    // r = a + b;
-    // cout << "Sum of a anb b is: " << r << endl;
+    r = a + b;
+    cout << "Sum of a anb b is: " << r << endl;
 
-    // cout << "Value of global r is: " << ::r << endl;
+    cout << "Value of global r is: " << ::r << endl;
 
     // by default c++ takes decimal values as double
     // we have to add f to specify the number is float or double
 
-    // float f = 3.14f;
-    // double d = 3.14l;
+    float f = 3.14f;
+    double d = 3.14l;
 
-    // cout << "size of pi is: " << sizeof(3.14) << endl;
-    // cout << "size of pi is: " << sizeof(3.14f) << endl;
-    // cout << "size of pi is: " << sizeof(3.14l) << endl;
-    // cout << "size of f is: " << sizeof(f) << endl;
-    // cout << "size of d is: " << sizeof(d) << endl;
+    cout << "size of pi is: " << sizeof(3.14) << endl;
+    cout << "size of pi is: " << sizeof(3.14f) << endl;
+    cout << "size of pi is: " << sizeof(3.14l) << endl;
+    cout << "size of f is: " << sizeof(f) << endl;
+    cout << "size of d is: " << sizeof(d) << endl;
 
     // Reference Variables
 
