@@ -1,2 +1,4 @@
-variable -> is a container to hold data
-data type -> defines the type of data a VARIABLE can hold
+(1) variable -> is a container to hold data
+(2) data type -> defines the type of data a VARIABLE can hold
+(3) by default C++ takes decimal values as double not float...
+(4) typcasting means to convert one data type to another data type
