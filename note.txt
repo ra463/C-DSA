@@ -26,5 +26,15 @@
 
 (11) array is a collection of similar data types int, float, char, double etc
 (12) loop are used to execute a block of code multiple times
-(13) pointer is a variable which holds the address of another variable
+(13) pointer is a data type which holds the address of another variable
 (14) function is a block of code which is used to perform a specific task
+(15) pointer arithematic formula:
+        new_address = current_address + (i * sizeof(data_type))
+(16) structure is a user-defined data types which is used to different type of data-type
+(17) char can store only one character.
+(18) unions are used to store different data types in a single variable.they are like structure but provide better memory management
+(19) enum is a user-defined data type which is used to store a list of constants
+(20) typedef is a keyword which is used to give a new name to an existing data type
+(21) file handling is a process of storing data in a file and retrieving data from a file
+(22) class is a user-defined data type which is used to store different data types
+(23) object is a instance of a class

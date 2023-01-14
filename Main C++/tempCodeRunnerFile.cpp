@@ -1,2 +1,13 @@
-0;
-    // cout << a << endl;
+ // student s1;
+    // cout << "Enter roll no. of student: ";
+    // cin >> s1.roll;
+    // cout << "Enter name of student: ";
+    // cin >> s1.name;
+    // cout << "Enter section of student: ";
+    // cin >> s1.sec;
+    // cout << "Enter marks of student: ";
+    // cin >> s1.marks;
+    // cout << "Roll no. of student is: " << s1.roll << endl;
+    // cout << "Name of student is: " << s1.name << endl;
+    // cout << "Section of student is: " << s1.sec << endl;
+    // cout << "Marks of student is: " << s1.marks << endl;
