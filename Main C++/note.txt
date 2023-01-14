@@ -2,3 +2,29 @@
 (2) data type -> defines the type of data a VARIABLE can hold
 (3) by default C++ takes decimal values as double not float...
 (4) typcasting means to convert one data type to another data type
+(5) constant are used when we wish that the values of certain things does not change.
+        i.e const int a = 3.14; --if we try to change the value of a we will get an error
+(6) manipulator are those operators which are used to formatt the data
+(7) precedence means that which arithematic operator will be executed first
+(8) associativity means that which arithematic operator will be executed first and if the oprator is same then it associativity is checked
+(9) sizeof() is a operator which is used to find the size of a variable
+(10) control structure in c++
+        i) selection structure
+        ii) sequence structure
+        iii) loop structure
+
+                a) if
+                b) if else
+                c) nested if
+                d) switch
+                a) for
+                b) while
+                c) do while
+                a) break
+                b) continue
+                c) goto
+
+(11) array is a collection of similar data types int, float, char, double etc
+(12) loop are used to execute a block of code multiple times
+(13) pointer is a variable which holds the address of another variable
+(14) function is a block of code which is used to perform a specific task
