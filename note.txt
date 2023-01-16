@@ -38,3 +38,20 @@
 (21) file handling is a process of storing data in a file and retrieving data from a file
 (22) class is a user-defined data type which is used to store different data types
 (23) object is a instance of a class
+(24) function prototyping is a process of declaring a function before its definition
+(25) A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function.
+(26) actual parameters are the values passed to the function
+(27) formal parameters are the parameters of the function
+(28) call by reference is a method of passing arguments to a function in which the address of the arguments is passed to the function
+(29) call by value is a method of passing arguments to a function in which the value of the arguments is passed to the function
+(30) static variable is a variable which is declared inside a function and it's value is retained even after the function has returned a value 
+(31) inline function is a function which is declared as inline and it's definition is inserted at the point of call
+        -->we should not use inline function when:
+                1) If a function contains a loop. (for, while, do-while)
+                2) If a function contains static variables.
+                3) If a function is recursive.
+                4) If a function return type is other than void, and the return statement doesn’t exist in function body.
+                5) If a function contains switch or goto statement.
+(32) default argument is a argument which is passed to a function if no argument is passed to the function
+(33) constant variable --> When you do not want others (or yourself) to change existing variable values, use the const keyword
+(34) Recursion --> Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve.
