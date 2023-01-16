@@ -55,3 +55,15 @@
 (32) default argument is a argument which is passed to a function if no argument is passed to the function
 (33) constant variable --> When you do not want others (or yourself) to change existing variable values, use the const keyword
 (34) Recursion --> Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve.
+(35) Function overloading --> Function overloading is the ability to create multiple functions of the same name with different parameters.
+(36) Function overriding --> Function overriding is the ability of a derived class to override
+
+-------------------------OOPS------------------------
+
+(37) OOP stands for Object-Oriented Programming. Object-oriented programming has several advantages over procedural programming:
+        OOP provides a clear structure for the programs
+        OOP is faster and easier to execute
+        OOP helps to keep the C++ code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
+        OOP makes it possible to create full reusable applications with less code and shorter development time
+
+(38) 
