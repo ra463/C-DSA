@@ -66,4 +66,8 @@
         OOP helps to keep the C++ code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
         OOP makes it possible to create full reusable applications with less code and shorter development time
 
-(38) 
+(38) Nesting of member function --> A member function called into another member function is referred to as nesting of member functions in C++.
+(39) memory allocation in C++ --> Memory allocation in C++ is the process of allocating memory to a variable or an array. Memory allocation is done by using the new operator.
+(40) memory deallocation in C++ --> Memory deallocation in C++ is the process of freeing the memory allocated to a variable or an array. Memory deallocation is done by using the delete operator.
+(41) static data member --> A static data member is a member of a class that is shared by all objects of that class. Static data members are declared with the static keyword.
+(42) static member function --> A static member function is a member function that can be called even if no objects of the class exist and the static functions are accessed using only the class name and the scope resolution operator ::.
