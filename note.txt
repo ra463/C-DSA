@@ -71,3 +71,10 @@
 (40) memory deallocation in C++ --> Memory deallocation in C++ is the process of freeing the memory allocated to a variable or an array. Memory deallocation is done by using the delete operator.
 (41) static data member --> A static data member is a member of a class that is shared by all objects of that class. Static data members are declared with the static keyword.
 (42) static member function --> A static member function is a member function that can be called even if no objects of the class exist and the static functions are accessed using only the class name and the scope resolution operator ::.
+        --> A static member function is independent of any object of the class. 
+        --> A static member function can be called even if no objects of the class exist.
+        --> A static member function can also be accessed using the class name through the scope resolution operator.
+        --> A static member function can access static data members and static member functions inside or outside of the class.
+        --> Static member functions have a scope inside the class and cannot access the current object pointer.
+        --> You can also use a static member function to determine how many objects of the class have been created.
+(43) friend function --> A friend function of a class is defined outside that class's scope but it has the right to access all private and protected members of the class. Even though the prototypes for friend functions appear in the class definition, friends are not member functions.
