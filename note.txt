@@ -78,3 +78,17 @@
         --> Static member functions have a scope inside the class and cannot access the current object pointer.
         --> You can also use a static member function to determine how many objects of the class have been created.
 (43) friend function --> A friend function of a class is defined outside that class's scope but it has the right to access all private and protected members of the class. Even though the prototypes for friend functions appear in the class definition, friends are not member functions.
+(44) constructor --> A constructor is a special member function of a class that is executed whenever we create new objects of that class.
+        --> A constructor has the same name as of the class and it does not have any return type.
+        --> A constructor is automatically invoked whenever an object is created.
+        --> A constructor can be used to set the initial values for certain member variables, or carry out other initialization tasks.
+(45) destructor --> A destructor is a special member function of a class that is executed whenever we delete objects of that class or when the object goes out of scope.
+        --> A destructor has the same name as of the class preceded by a tilde (~) and it does not have any return type.
+        --> A destructor is automatically invoked whenever an object is deleted.
+        --> A destructor can be used to deallocate memory, close files, close network connections, etc.
+(46) copy constructor --> A copy constructor is a member function which initializes an object using another object of the same class. A copy constructor has the following general function prototype:
+        className (const className &old_obj);
+        --> A copy constructor is called in the following situations:
+                1) When an object of the class is returned
+                2) When an object of the class is passed (to a function) by value as an argument
+                3) When an object is constructed based on another object of the same class
