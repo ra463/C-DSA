@@ -92,3 +92,5 @@
                 1) When an object of the class is returned
                 2) When an object of the class is passed (to a function) by value as an argument
                 3) When an object is constructed based on another object of the same class
+(47) paramaterized constructor --> A parameterized constructor is a constructor which takes parameters. A parameterized constructor is used to provide different values to the different data members of different objects.
+(48) default constructor --> A default constructor is a constructor which takes no parameters. A default constructor is used to provide the default values to the data members of an object.
