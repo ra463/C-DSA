@@ -87,7 +87,7 @@
         --> A destructor is automatically invoked whenever an object is deleted.
         --> A destructor can be used to deallocate memory, close files, close network connections, etc.
 (46) copy constructor --> A copy constructor is a member function which initializes an object using another object of the same class. A copy constructor has the following general function prototype:
-        className (const className &old_obj);
+        syntax --> className (const className &old_obj);
         --> A copy constructor is called in the following situations:
                 1) When an object of the class is returned
                 2) When an object of the class is passed (to a function) by value as an argument
