@@ -95,3 +95,19 @@
 (47) paramaterized constructor --> A parameterized constructor is a constructor which takes parameters. A parameterized constructor is used to provide different values to the different data members of different objects.
 (48) default constructor --> A default constructor is a constructor which takes no parameters. A default constructor is used to provide the default values to the data members of an object.
 (49) important --> if we dont create copy constructor then compiler will create/supplies its own copy constructor
+
+----------------------Inheritance-----------------------------
+
+(50) Inheritance --> Inheritance is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of object-oriented programming and is used to achieve runtime polymorphism.
+        -->The derived class is the specialized class for the base class.
+                ->Sub Class: The class that inherits properties from another class is called Subclass or Derived Class. 
+                ->Super Class: The class whose properties are inherited by a subclass is called Base Class or Superclass. 
+(51) Types of inheritance --> There are three types of inheritance in C++:
+        1) Single inheritance
+        2) Multiple inheritance
+        3) Multilevel inheritance
+        4) Hierarchical inheritance
+        5) Hybrid inheritance
+(52) Single inheritance --> In single inheritance, only one class is inherited by another class.
+(53) Multiple inheritance --> Multiple Inheritance is a feature of C++ where a class can inherit from more than one class. i.e one subclass is inherited from more than one base class.
+(54) Hierarchical inheritance --> In this type of inheritance, more than one subclass is inherited from a single base class. i.e. more than one derived class is created from a single base class.
