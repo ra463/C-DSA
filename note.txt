@@ -111,3 +111,5 @@
 (52) Single inheritance --> In single inheritance, only one class is inherited by another class.
 (53) Multiple inheritance --> Multiple Inheritance is a feature of C++ where a class can inherit from more than one class. i.e one subclass is inherited from more than one base class.
 (54) Hierarchical inheritance --> In this type of inheritance, more than one subclass is inherited from a single base class. i.e. more than one derived class is created from a single base class.
+(55) Multilevel inheritance --> In multilevel inheritance, a class is derived from another derived class. i.e. a derived class is inherited from another derived class.
+(56) Hybrid inheritance --> Hybrid inheritance is a combination of more than one type of inheritance. i.e. a class is derived from more than one base class and also inherits from a derived class.
