@@ -113,3 +113,7 @@
 (54) Hierarchical inheritance --> In this type of inheritance, more than one subclass is inherited from a single base class. i.e. more than one derived class is created from a single base class.
 (55) Multilevel inheritance --> In multilevel inheritance, a class is derived from another derived class. i.e. a derived class is inherited from another derived class.
 (56) Hybrid inheritance --> Hybrid inheritance is a combination of more than one type of inheritance. i.e. a class is derived from more than one base class and also inherits from a derived class.
+(57) protected access specifier --> The protected access specifier is similar to the private access specifier, except that the members declared protected can be accessed by the members of their own class and by the members of their derived classes.
+(58) public access specifier --> The public access specifier is the most accessible access specifier. The members declared public can be accessed by any other code that has access to the object.
+(59) private access specifier --> The private access specifier is the least accessible access specifier. The members declared private can be accessed only by the members of their own class.
+(60) protected inheritance --> Protected inheritance is a form of inheritance in which the base class members are declared protected in the derived class.
