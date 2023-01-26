@@ -117,3 +117,26 @@
 (58) public access specifier --> The public access specifier is the most accessible access specifier. The members declared public can be accessed by any other code that has access to the object.
 (59) private access specifier --> The private access specifier is the least accessible access specifier. The members declared private can be accessed only by the members of their own class.
 (60) protected inheritance --> Protected inheritance is a form of inheritance in which the base class members are declared protected in the derived class.
+(61) Ambiguty --> Ambiguity is a situation in which a derived class inherits two or more base classes that have members with the same name and signature.
+(62) virtual base class --> A virtual base class is a base class that is used in multiple inheritance to avoid ambiguity.
+(63) virtual function --> A virtual function is a member function which is declared within a base class and is re-defined (Overriden) by a derived class.
+        --> A virtual function is used to achieve Runtime Polymorphism.
+        --> A virtual function can be defined in a base class and can be re-defined (Overriden) by a derived class.
+        --> A virtual function ensures that the correct function is called for an object, regardless of the type of reference (or pointer) used for function call.
+        --> A virtual function can be declared in a class by placing the keyword virtual before the function's declaration.
+        --> A virtual function can be defined outside the class by placing the keyword virtual before the function's definition.
+        --> A virtual function can be a friend of another class.
+        --> A virtual function can be a static function.
+        --> A virtual function can be a constructor or a destructor.
+        --> A virtual function in the base class should be defined with the help of the scope resolution operator to avoid any ambiguity.
+        --> A virtual function can be a pure virtual function.
+(64) pure virtual function --> A pure virtual function is a virtual function for which we do not have any definition. A pure virtual function is declared by placing "= 0" at the end of the function's declaration.
+        --> A pure virtual function is used to achieve Runtime Polymorphism.
+        --> A pure virtual function can be declared in a class by placing "= 0" at the end of the function's declaration.
+        --> A pure virtual function can be defined outside the class by placing "= 0" at the end of the function's definition.
+        --> A pure virtual function can be a friend of another class.
+        --> A pure virtual function can be a static function.
+        --> A pure virtual function can be a constructor or a destructor.
+        --> A pure virtual function in the base class should be defined with the help of the scope resolution operator to avoid any ambiguity.
+        --> A pure virtual function can be a virtual function.
+(65) abstract class --> An abstract class is a class that contains at least one pure virtual function. An abstract class cannot be used to create objects, and
