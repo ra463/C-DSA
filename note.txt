@@ -119,24 +119,13 @@
 (60) protected inheritance --> Protected inheritance is a form of inheritance in which the base class members are declared protected in the derived class.
 (61) Ambiguty --> Ambiguity is a situation in which a derived class inherits two or more base classes that have members with the same name and signature.
 (62) virtual base class --> A virtual base class is a base class that is used in multiple inheritance to avoid ambiguity.
-(63) virtual function --> A virtual function is a member function which is declared within a base class and is re-defined (Overriden) by a derived class.
-        --> A virtual function is used to achieve Runtime Polymorphism.
-        --> A virtual function can be defined in a base class and can be re-defined (Overriden) by a derived class.
-        --> A virtual function ensures that the correct function is called for an object, regardless of the type of reference (or pointer) used for function call.
-        --> A virtual function can be declared in a class by placing the keyword virtual before the function's declaration.
-        --> A virtual function can be defined outside the class by placing the keyword virtual before the function's definition.
-        --> A virtual function can be a friend of another class.
-        --> A virtual function can be a static function.
-        --> A virtual function can be a constructor or a destructor.
-        --> A virtual function in the base class should be defined with the help of the scope resolution operator to avoid any ambiguity.
-        --> A virtual function can be a pure virtual function.
-(64) pure virtual function --> A pure virtual function is a virtual function for which we do not have any definition. A pure virtual function is declared by placing "= 0" at the end of the function's declaration.
-        --> A pure virtual function is used to achieve Runtime Polymorphism.
-        --> A pure virtual function can be declared in a class by placing "= 0" at the end of the function's declaration.
-        --> A pure virtual function can be defined outside the class by placing "= 0" at the end of the function's definition.
-        --> A pure virtual function can be a friend of another class.
-        --> A pure virtual function can be a static function.
-        --> A pure virtual function can be a constructor or a destructor.
-        --> A pure virtual function in the base class should be defined with the help of the scope resolution operator to avoid any ambiguity.
-        --> A pure virtual function can be a virtual function.
-(65) abstract class --> An abstract class is a class that contains at least one pure virtual function. An abstract class cannot be used to create objects, and
+(63) this pointer --> this is a keyword that refers to the current instance of the class. There can be 3 main usage of this keyword in C++.
+        --> When local variable’s name is same as member’s name
+        --> To return reference to the calling object
+        --> It can be used to declare indexers.
+(64) Polymorphism --> Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
+(65) Types of polymorphism --> There are two types of polymorphism in C++:
+        1) Compile time polymorphism
+        2) Runtime polymorphism
+(66) Compile time polymorphism --> Compile time polymorphism is also known as static polymorphism. This type of polymorphism is achieved by function overloading or operator overloading.
+(67) Runtime polymorphism --> Runtime polymorphism is also known as dynamic polymorphism. This type of polymorphism is achieved by function overriding.
