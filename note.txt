@@ -130,3 +130,8 @@
 (66) Compile time polymorphism --> Compile time polymorphism is also known as static polymorphism. This type of polymorphism is achieved by function overloading or operator overloading.
 (67) Runtime polymorphism --> Runtime polymorphism is also known as dynamic polymorphism. This type of polymorphism is achieved by function overriding.
 (68) virtual functon --> Virtual function is used to achieve the runtime polymorphism.
+(69) abstract class --> Sometimes implementation of all function cannot be provided in a base class because we don’t know the implementation. Such a class is called abstract class.
+        --> A class is abstract if it has at least one pure virtual function. A pure virtual function is specified by placing "= 0" in its declaration.
+        --> We can have pointers and references of abstract class type. 
+        --> An abstract class can have constructors. 
+        --> An abstract class in C++ can also be defined using struct keyword.
