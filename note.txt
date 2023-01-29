@@ -129,3 +129,4 @@
         2) Runtime polymorphism
 (66) Compile time polymorphism --> Compile time polymorphism is also known as static polymorphism. This type of polymorphism is achieved by function overloading or operator overloading.
 (67) Runtime polymorphism --> Runtime polymorphism is also known as dynamic polymorphism. This type of polymorphism is achieved by function overriding.
+(68) virtual functon --> Virtual function is used to achieve the runtime polymorphism.
