@@ -135,3 +135,5 @@
         --> We can have pointers and references of abstract class type. 
         --> An abstract class can have constructors. 
         --> An abstract class in C++ can also be defined using struct keyword.
+(70) pure virtual function --> A pure virtual function is a virtual function for which we do not have any implementation. A pure virtual function is specified by placing "= 0" in its declaration.
+(71) templetes --> A template is a simple yet very powerful tool in C++. The simple idea is to pass data type as a parameter so that we don’t need to write the same code for different data types.
