@@ -137,3 +137,22 @@
         --> An abstract class in C++ can also be defined using struct keyword.
 (70) pure virtual function --> A pure virtual function is a virtual function for which we do not have any implementation. A pure virtual function is specified by placing "= 0" in its declaration.
 (71) templetes --> A template is a simple yet very powerful tool in C++. The simple idea is to pass data type as a parameter so that we don’t need to write the same code for different data types.
+(72) templates are also called as paramaterized classes and we can do generic programming
+(73) function templates --> A function template is a function that can work with generic types. This allows us to create a function template whose functionality can be adapted to more than one type or class without repeating the entire code for each type.
+(74) class templates --> A class template is a user-defined class that can work with generic types. This allows us to create a class template whose functionality can be adapted to more than one type or class without repeating the entire code for each type.
+(75) STL --> STL is a C++ library of container classes, algorithms, and iterators. It is a generalized library and so, its components are parameterized. A C++ programmer can use STL components and algorithms to develop efficient program modules, and thus to improve the program’s performance.
+(76) STL containers --> STL containers are classes that implement data structures which are commonly used in programming. They are implemented as class templates, which allows a great flexibility in the types supported as elements.
+(77) STL algorithms --> STL algorithms are functions just like any other C++ functions. They take iterators as arguments and operate on the range of elements defined by those iterators. They are implemented as function templates, which allows a great flexibility in the types supported as arguments.
+(78) STL iterators --> STL iterators are objects that point to elements in a range of elements. They are implemented as class templates, which allows a great flexibility in the types supported as elements.
+(79) STL functors --> STL functors are classes that overload the function call operator (). They are implemented as class templates, which allows a great flexibility in the types supported as arguments.
+(80) STL adaptors --> STL adaptors are classes that provide a different interface for sequential containers. They are implemented as class templates, which allows a great flexibility in the types supported as elements.
+(81) STL containers --> There are 5 containers in STL:
+        1) vector
+        2) list
+        3) deque
+        4) set
+        5) map
+(82) vector --> A vector is a dynamic array. Just like arrays, vectors are sequence containers representing arrays that can change in size.
+(83) list --> A list is a sequence container that allows non-contiguous memory allocation. As compared to vector, list has slow traversal, but once a position has been found, insertion and deletion are quick.
+(84) deque --> A deque is a double-ended queue. It can be thought of as a vector that allows insertion and deletion at both its beginning and its end.
+(85) set --> A set is a container that stores unique elements following a specific order. In a set, the value of an element also identifies it (the value is itself the key, of type T), and each value must be unique. The value of the elements in a set cannot be modified once in the container (the elements are always const), but they can be inserted or removed from the container.
