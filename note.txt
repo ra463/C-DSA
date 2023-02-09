@@ -146,13 +146,28 @@
 (78) STL iterators --> STL iterators are objects that point to elements in a range of elements. They are implemented as class templates, which allows a great flexibility in the types supported as elements.
 (79) STL functors --> STL functors are classes that overload the function call operator (). They are implemented as class templates, which allows a great flexibility in the types supported as arguments.
 (80) STL adaptors --> STL adaptors are classes that provide a different interface for sequential containers. They are implemented as class templates, which allows a great flexibility in the types supported as elements.
-(81) STL containers --> There are 5 containers in STL:
+(81) STL containers --> There are 3 containers in STL:
+        1) Sequence containers
+        2) Associative containers
+        3) Container adaptors
+(82) Sequence containers --> Sequence containers are implemented as doubly-linked lists. They allow non-contiguous memory allocation for their elements, which means that their elements can also be scattered in different storage locations. The main advantage of this is that they don’t need to reallocate their entire storage space when new elements are inserted, but only the additional space needed.
+(83) Associative containers --> Associative containers are implemented as binary search trees. They allow fast retrieval of individual elements based on their value, because elements are sorted by their value. They are generally slower than sequence containers to access individual elements by their position.
+(84) Container adaptors --> Container adaptors are implemented as wrappers around sequence containers. They provide a different interface for sequential containers. They are generally slower than their underlying containers to access individual elements by their position.
+(85) Sequence containers --> There are 4 sequence containers in STL:
         1) vector
         2) list
-        3) deque
-        4) set
-        5) map
-(82) vector --> A vector is a dynamic array. Just like arrays, vectors are sequence containers representing arrays that can change in size.
-(83) list --> A list is a sequence container that allows non-contiguous memory allocation. As compared to vector, list has slow traversal, but once a position has been found, insertion and deletion are quick.
-(84) deque --> A deque is a double-ended queue. It can be thought of as a vector that allows insertion and deletion at both its beginning and its end.
-(85) set --> A set is a container that stores unique elements following a specific order. In a set, the value of an element also identifies it (the value is itself the key, of type T), and each value must be unique. The value of the elements in a set cannot be modified once in the container (the elements are always const), but they can be inserted or removed from the container.
+        3) forward_list
+        4) deque
+(86) vector --> A vector is a dynamic array. It grows and shrinks dynamically, and it provides direct access to any element in constant time. It is very similar to a regular array, but it has some extra features.
+(87) list --> A list is a doubly-linked list. It is very similar to a vector, but it is more efficient in inserting and removing elements from any position in the container.
+(88) forward_list --> A forward_list is a singly-linked list. It is very similar to a list, but it is more efficient in inserting and removing elements from the beginning of the container.
+(89) deque --> A deque is a double-ended queue. It is very similar to a vector, but it is more efficient in inserting and removing elements from the beginning or the end of the container.
+(90) Associative containers --> There are 4 associative containers in STL:
+        1) set
+        2) multiset
+        3) map
+        4) multimap
+(91) set --> A set is a container that stores unique elements following a specific order. It contains a sorted list of unique objects of type Key.
+(92) multiset --> A multiset is a container that stores equivalent elements following a specific order. It contains a sorted list of objects of type Key.
+(93) map --> A map is a container that stores elements formed by the combination of a key value and a mapped value, following a specific order. It contains a sorted list of key-value pairs, where each key value is unique.
+(94) multimap --> A multimap is a container that stores elements formed by the combination of a key value and a mapped value, following a specific order. It contains a sorted list of key-value pairs, where multiple pairs can have equivalent key values
