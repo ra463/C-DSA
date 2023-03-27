@@ -3,7 +3,7 @@
 using namespace std;
 
 int main()
-{   
+{
     // ele=ments are sorted by default according to the key
     // map should have unique keys and it is sorted by default
     map<string, int> m1;
@@ -34,5 +34,28 @@ int main()
     }
 
     cout << "The size of map is " << m1.size() << endl;
+
+    // count
+    cout << "Present: " << m1.count("abc") << endl;
+
+    // erase
+
+    m1.erase("abc");
+    cout << "Present: " << m1.count("abc") << endl;
+
+    for (auto i : m1)
+    {
+        cout << i.first << " " << i.second << " ";
+    }
+
+    auto it = m1.find("ghi");
+
+    cout<<endl;
+
+    for (auto i = it; i != m1.end(); i++)
+    {
+        cout << (*i).first << " " << i->second << " ";
+    }
+
     return 0;
 }
