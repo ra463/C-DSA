@@ -3,7 +3,8 @@
 using namespace std;
 
 int main()
-{
+{   
+    // ele=ments are sorted by default according to the key
     // map should have unique keys and it is sorted by default
     map<string, int> m1;
     // insert
@@ -14,12 +15,24 @@ int main()
 
     // print
 
-    map<string, int>::iterator it;
-    for (it = m1.begin(); it != m1.end(); it++)
+    // map<string, int>::iterator it;
+    // for (it = m1.begin(); it != m1.end(); it++)
+    // {
+    //     cout << (*it).first << " " << (*it).second << endl;
+    // }
+
+    for (auto i : m1) // print only the keys
     {
-        cout << (*it).first << " " << (*it).second << endl;
+        cout << i.first << " ";
+    }
+
+    cout << endl;
+
+    for (auto i : m1) // print the keys and values of map
+    {
+        cout << i.first << " " << i.second << " ";
     }
 
     cout << "The size of map is " << m1.size() << endl;
     return 0;
-}>
+}
